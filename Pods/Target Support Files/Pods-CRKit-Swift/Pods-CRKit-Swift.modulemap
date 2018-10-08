@@ -1,0 +1,6 @@
+framework module Pods_CRKit_Swift {
+  umbrella header "Pods-CRKit-Swift-umbrella.h"
+
+  export *
+  module * { export * }
+}
