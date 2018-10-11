@@ -27,6 +27,6 @@ def pods
     pod 'UIAlertController+Blocks'
 end
 
-target 'CRKit-Swift' do
+target 'CRKitSwift' do
     pods
 end
