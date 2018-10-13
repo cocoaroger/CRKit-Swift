@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5AD45CF0EDBB0A15F3D3B80F /* Pods_CRKitSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43E278920B37D0A12A30DF4C /* Pods_CRKitSwift.framework */; };
+		DB52A7712170951F0090ED7A /* CRVerificationCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB52A7702170951F0090ED7A /* CRVerificationCodeView.swift */; };
 		DB57E773216B2D6F00F03C12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB57E772216B2D6F00F03C12 /* AppDelegate.swift */; };
 		DB57E775216B2D6F00F03C12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB57E774216B2D6F00F03C12 /* ViewController.swift */; };
 		DB57E778216B2D6F00F03C12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB57E776216B2D6F00F03C12 /* Main.storyboard */; };
@@ -63,6 +64,7 @@
 		43E278920B37D0A12A30DF4C /* Pods_CRKitSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CRKitSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CB180E97366F40253F6DACD /* Pods-CRKitSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRKitSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CRKitSwift/Pods-CRKitSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		D39BD7AE09B61F995C398E24 /* Pods-CRKitSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRKitSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-CRKitSwift/Pods-CRKitSwift.release.xcconfig"; sourceTree = "<group>"; };
+		DB52A7702170951F0090ED7A /* CRVerificationCodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRVerificationCodeView.swift; sourceTree = "<group>"; };
 		DB57E76F216B2D6F00F03C12 /* CRKitSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CRKitSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB57E772216B2D6F00F03C12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB57E774216B2D6F00F03C12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -298,6 +300,7 @@
 				DB57E7EF216CABB600F03C12 /* CRTextView.swift */,
 				DB57E7F1216CAC6700F03C12 /* CRRefreshFooter.swift */,
 				DB57E7F3216CAC9100F03C12 /* CRRefreshHeader.swift */,
+				DB52A7702170951F0090ED7A /* CRVerificationCodeView.swift */,
 			);
 			path = UIComponent;
 			sourceTree = "<group>";
@@ -592,6 +595,7 @@
 				DB57E7EC216CA99500F03C12 /* CRStoryboard.swift in Sources */,
 				DB57E7DC216C9C4800F03C12 /* UITextField+CRExtension.swift in Sources */,
 				DB57E7DA216C99E400F03C12 /* UILabel+CRExtension.swift in Sources */,
+				DB52A7712170951F0090ED7A /* CRVerificationCodeView.swift in Sources */,
 				DB57E792216B55EE00F03C12 /* CRResponse.swift in Sources */,
 				DB57E7C1216C7C7400F03C12 /* UIButton+CRExtension.swift in Sources */,
 			);

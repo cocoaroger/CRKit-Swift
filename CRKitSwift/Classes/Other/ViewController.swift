@@ -19,6 +19,11 @@ class ViewController: CRBaseController {
         
         self.navigationBar.rightButtonTitle = "Push"
         
+        let codeView = CRVerificationCodeView(frame: CGRect(x: 0, y: 100, width: UIScreen.cr_width, height: 50))
+        codeView.backgroundColor = UIColor.white
+        codeView.delegate = self
+        self.view.addSubview(codeView)
+        
         req = CRNetwork.default.request(DemoTarget.home) { (result) in
             switch result {
             case let .success(resp):
@@ -49,3 +54,9 @@ class ViewController: CRBaseController {
     }
 }
 
+extension ViewController : CRVerificationCodeViewDelegate {
+    func codeViewDidFinishedInput(codeView: CRVerificationCodeView, code: String) {
+        CRLog("\(code)")
+        codeView.cleanVerificationCodeView()
+    }
+}
