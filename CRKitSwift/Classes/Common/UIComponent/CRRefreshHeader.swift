@@ -11,10 +11,11 @@ import MJRefresh
 
 class CRRefreshHeader: MJRefreshNormalHeader {
     
-    public static func headerWithRefreshingBlock(refreshingBlock: @escaping MJRefresh.MJRefreshComponentRefreshingBlock) -> CRRefreshHeader {
-        let header = CRRefreshHeader(refreshingBlock: refreshingBlock)!
-        header.lastUpdatedTimeLabel.isHidden = true
-        header.stateLabel.isHidden = true
+    
+    public static func headerWithRefreshingBlock(refreshingBlock: @escaping MJRefresh.MJRefreshComponentAction) -> CRRefreshHeader {
+        let header = CRRefreshHeader(refreshingBlock: refreshingBlock)
+        header.lastUpdatedTimeLabel?.isHidden = true
+        header.stateLabel?.isHidden = true
         return header
     }
 }

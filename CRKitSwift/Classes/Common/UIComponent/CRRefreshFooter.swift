@@ -11,8 +11,8 @@ import MJRefresh
 
 class CRRefreshFooter: MJRefreshBackNormalFooter {
     
-    public static func footerWithRefreshingBlock(refreshingBlock: @escaping MJRefresh.MJRefreshComponentRefreshingBlock) -> CRRefreshFooter {
-        let footer = CRRefreshFooter(refreshingBlock: refreshingBlock)!
+    public static func footerWithRefreshingBlock(refreshingBlock: @escaping MJRefresh.MJRefreshComponentAction) -> CRRefreshFooter {
+        let footer = CRRefreshFooter(refreshingBlock: refreshingBlock)
         return footer
     }
 }

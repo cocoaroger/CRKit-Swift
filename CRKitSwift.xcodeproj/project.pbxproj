@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -175,7 +175,6 @@
 			isa = PBXGroup;
 			children = (
 				DB57E787216B2FA000F03C12 /* Common */,
-				DB57E788216B2FA500F03C12 /* Modules */,
 				DB57E786216B2F7A00F03C12 /* Other */,
 			);
 			path = Classes;
@@ -215,14 +214,6 @@
 			path = Common;
 			sourceTree = "<group>";
 		};
-		DB57E788216B2FA500F03C12 /* Modules */ = {
-			isa = PBXGroup;
-			children = (
-				DB57E7A0216B600400F03C12 /* Login */,
-			);
-			path = Modules;
-			sourceTree = "<group>";
-		};
 		DB57E789216B51D000F03C12 /* GlobalFunction */ = {
 			isa = PBXGroup;
 			children = (
@@ -252,37 +243,6 @@
 				DB57E79E216B5FA100F03C12 /* DemoTarget.swift */,
 			);
 			path = Targets;
-			sourceTree = "<group>";
-		};
-		DB57E7A0216B600400F03C12 /* Login */ = {
-			isa = PBXGroup;
-			children = (
-				DB57E7A1216B601600F03C12 /* Controller */,
-				DB57E7A2216B601B00F03C12 /* View */,
-				DB57E7A3216B602000F03C12 /* Model */,
-			);
-			path = Login;
-			sourceTree = "<group>";
-		};
-		DB57E7A1216B601600F03C12 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		DB57E7A2216B601B00F03C12 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		DB57E7A3216B602000F03C12 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		DB57E7A4216B607200F03C12 /* Protocol */ = {
@@ -511,40 +471,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-CRKitSwift/Pods-CRKitSwift-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
-				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
-				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
-				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
-				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
-				"${BUILT_PRODUCTS_DIR}/UIAlertController+Blocks/UIAlertController_Blocks.framework",
-				"${BUILT_PRODUCTS_DIR}/YYCategories/YYCategories.framework",
-				"${BUILT_PRODUCTS_DIR}/YYText/YYText.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-CRKitSwift/Pods-CRKitSwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIAlertController_Blocks.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYCategories.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYText.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-CRKitSwift/Pods-CRKitSwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CRKitSwift/Pods-CRKitSwift-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CRKitSwift/Pods-CRKitSwift-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
